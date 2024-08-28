@@ -1,0 +1,71 @@
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url("../img/empada2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.custom-navbar {
+  background-color: #ffb74d;
+}
+
+.custom-brand {
+  font-size: 40px;
+  color: #ff9b26;
+}
+
+.custom-brand:hover {
+  color: #ff9b26;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.nav-item {
+  padding: 500 0px;
+}
+.nav-item a {
+  font-weight: boldz;
+  font-size: 20px;
+  color: #ff9b26;
+}
+
+.produto {
+  display: block;
+  margin: 0 auto;
+  width: 240px;
+  height: 240px; /* Define a altura fixa */
+  object-fit: cover; /* Faz a imagem cobrir o espaço definido sem distorcer */
+}
+
+.table {
+  text-align: center;
+}
+
+.table-column th {
+  background-color: #ffb74d;
+  color: #ffff;
+}
+
+.card-title {
+  color: #ffb74d;
+}
+
+.rounded-circle {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.table {
+  text-align: center;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0; /* remove espaço entre colunas e linhas */
+}
+.table-wrapper {
+  padding: 15px;
+}
